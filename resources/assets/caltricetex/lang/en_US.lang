@@ -1,0 +1,34 @@
+//ITEMS
+item.apliteShard.name=Aplite Shard
+item.apliteGem.name=Aplite Gem
+item.fauxShard.name=Faux Shard
+item.fauxGem.name=Faux Gem
+item.chainLink.name=Chain Link
+//TOOLS
+item.apliteSword.name=Aplite Sword
+item.aplitePickaxe.name=Aplite Pickaxe
+item.apliteShovel.name=Aplite Shovel
+item.apliteAxe.name=Aplite Axe
+item.apliteHoe.name=Aplite Hoe
+item.fauxSword.name=faux Sword
+item.fauxPickaxe.name=faux Pickaxe
+item.fauxShovel.name=faux Shovel
+item.fauxAxe.name=faux Axe
+item.fauxHoe.name=faux Hoe
+//ANCIENT TOOLS
+item.ancientArcLight.name=Ancient Arc Light Sword
+
+//BLOCKS
+tile.Thatchedreed.name=Thatched Reed
+tile.Barlierock.name=Barlie Rock
+tile.Apliteore.name=Aplite Ore
+tile.Fauxore.name=Faux Ore
+
+//TAB
+itemGroup.tabCaltrice=Realms of Caltrice
+
+//ARMOUR
+item.decchainHelm.name=Decorative Chain Helmet
+item.decchainPlate.name=Decorative Chain Chestplate
+item.decchainLegs.name=Decorative Chain Leggings
+item.decchainBoots.name=Decorative Chain Boots
