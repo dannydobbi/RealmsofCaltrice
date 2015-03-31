@@ -3,6 +3,8 @@ item.apliteShard.name=Aplite Shard
 item.apliteGem.name=Aplite Gem
 item.fauxShard.name=Faux Shard
 item.fauxGem.name=Faux Gem
+item.vostallosGem.name=Vostallos Gem
+item.vostallosShard.name=Vostallos Shard
 item.chainLink.name=Chain Link
 //TOOLS
 item.apliteSword.name=Aplite Sword
@@ -21,8 +23,10 @@ item.ancientArcLight.name=Ancient Arc Light Sword
 //BLOCKS
 tile.Thatchedreed.name=Thatched Reed
 tile.Barlierock.name=Barlie Rock
+tile.Barliecobblestone.name=Barlie Cobblestone
 tile.Apliteore.name=Aplite Ore
 tile.Fauxore.name=Faux Ore
+tile.Vostallosore.name=Vostallos Ore
 
 //TAB
 itemGroup.tabCaltrice=Realms of Caltrice

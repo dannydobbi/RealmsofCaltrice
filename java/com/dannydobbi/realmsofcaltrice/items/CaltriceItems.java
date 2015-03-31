@@ -40,6 +40,8 @@ public class CaltriceItems
 	//Items
 	public static Item apliteShard = new CaltriceItem().setUnlocalizedName("apliteShard");
 	public static Item fauxShard = new CaltriceItem().setUnlocalizedName("fauxShard");
+	public static Item vostallosShard = new CaltriceItem().setUnlocalizedName("vostallosShard");
+	public static Item vostallosGem = new CaltriceItem().setUnlocalizedName("vostallosGem");
 	public static Item apliteGem = new CaltriceItem().setUnlocalizedName("apliteGem");
 	public static Item fauxGem = new CaltriceItem().setUnlocalizedName("fauxGem");
 	public static Item chainLink = new CaltriceItem().setUnlocalizedName("chainLink");
@@ -71,6 +73,8 @@ public class CaltriceItems
 	RegisterHelper.registerItem(apliteGem);
 	RegisterHelper.registerItem(fauxGem);
 	RegisterHelper.registerItem(fauxShard);
+	RegisterHelper.registerItem(vostallosShard);
+	RegisterHelper.registerItem(vostallosGem);
 	RegisterHelper.registerItem(chainLink);
 	}
 }
