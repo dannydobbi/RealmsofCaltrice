@@ -16,6 +16,7 @@ public class CaltriceItems
     //static Item.ToolMaterial MatName = EnumHelper.addToolMaterial(name, harvestLevel, maxUses, efficiency, damage, enchantability)
 	static Item.ToolMaterial APLITE = EnumHelper.addToolMaterial("APLITE", 2, 1500, 3.5F, 2.0F, 3);
 	static Item.ToolMaterial FAUX = EnumHelper.addToolMaterial("FAUX", 4, 2550, 4.5F, 4.0F, 4);
+	static Item.ToolMaterial VOSTALLOS = EnumHelper.addToolMaterial("VOSTALLOS", 5, 3000, 4.5F, 4.0F, 5);
 	static Item.ToolMaterial ANCIENT = EnumHelper.addToolMaterial("ANCIENT", 5, 5000, 6.0F, 5.5F, 5);
 	
 	//Armour
@@ -37,6 +38,12 @@ public class CaltriceItems
 	public static Item fauxShovel = new ItemCaltriceShovel(APLITE).setUnlocalizedName("fauxShovel");
 	public static Item fauxAxe = new ItemCaltriceAxe(APLITE).setUnlocalizedName("fauxAxe");
 	public static Item fauxHoe = new ItemCaltriceHoe(APLITE).setUnlocalizedName("fauxHoe");
+	
+	public static Item vostallosSword = new ItemCaltriceSword(VOSTALLOS).setUnlocalizedName("vostallosSword");
+	public static Item vostallosPickaxe = new ItemCaltricePickaxe(VOSTALLOS).setUnlocalizedName("vostallosPickaxe");
+	public static Item vostallosShovel = new ItemCaltriceShovel(VOSTALLOS).setUnlocalizedName("vostallosShovel");
+	public static Item vostallosAxe = new ItemCaltriceAxe(VOSTALLOS).setUnlocalizedName("vostallosAxe");
+	public static Item vostallosHoe = new ItemCaltriceHoe(VOSTALLOS).setUnlocalizedName("vostallosHoe");
 	//Items
 	public static Item apliteShard = new CaltriceItem().setUnlocalizedName("apliteShard");
 	public static Item fauxShard = new CaltriceItem().setUnlocalizedName("fauxShard");
@@ -65,6 +72,12 @@ public class CaltriceItems
 	RegisterHelper.registerItem(fauxShovel);
 	RegisterHelper.registerItem(fauxAxe);	
 	RegisterHelper.registerItem(fauxHoe);
+	
+	RegisterHelper.registerItem(vostallosSword);
+	RegisterHelper.registerItem(vostallosPickaxe);
+	RegisterHelper.registerItem(vostallosShovel);
+	RegisterHelper.registerItem(vostallosAxe);
+	RegisterHelper.registerItem(vostallosHoe);
 	
 		//Ancient Tools
 	RegisterHelper.registerItem(ancientArcLight);

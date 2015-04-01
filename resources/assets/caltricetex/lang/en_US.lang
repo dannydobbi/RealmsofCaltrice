@@ -12,11 +12,19 @@ item.aplitePickaxe.name=Aplite Pickaxe
 item.apliteShovel.name=Aplite Shovel
 item.apliteAxe.name=Aplite Axe
 item.apliteHoe.name=Aplite Hoe
+
 item.fauxSword.name=faux Sword
 item.fauxPickaxe.name=faux Pickaxe
 item.fauxShovel.name=faux Shovel
 item.fauxAxe.name=faux Axe
 item.fauxHoe.name=faux Hoe
+
+item.vostallosSword.name=Vostallos Sword
+item.vostallosPickaxe.name=Vostallos Pickaxe
+item.vostallosShovel.name=Vostallos Shovel
+item.vostallosAxe.name=Vostallos Axe
+item.vostallosHoe.name=Vostallos Hoe
+
 //ANCIENT TOOLS
 item.ancientArcLight.name=Ancient Arc Light Sword
 
