@@ -18,15 +18,15 @@ public class ItemDecchainArmour extends ItemArmor
 		setTextureName(ModInfo.MODID + ":" + getUnlocalizedName().substring(5));
 		setCreativeTab(ModTab.tabCaltrice);
 	}
-	public String getArmorYexyire(ItemStack stack, Entity entity, int slot, String type)
+	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type)
 	{
 		if (stack.getItem() == CaltriceItems.decchainHelm || stack.getItem() == CaltriceItems.decchainPlate || stack.getItem() == CaltriceItems.decchainBoots)
 		{
-			return ModInfo.MODID + ":models/armor/decchain_layer1.png";
+			return ModInfo.MODID + ":textures/models/armor/decchain_layer1.png";
 		}
 		else if (stack.getItem() == CaltriceItems.decchainPants)	
 		{
-			return ModInfo.MODID + ":models/armor/decchain_layer2.png";
+			return ModInfo.MODID + ":textures/models/armor/decchain_layer2.png";
 		}
 		else
 		{

@@ -1,5 +1,6 @@
 package com.dannydobbi.realmsofcaltrice.items;
 
+import com.dannydobbi.realmsofcaltrice.armour.ItemDecchainArmour;
 import com.dannydobbi.realmsofcaltrice.help.RegisterHelper;
 
 import net.minecraft.item.Item;
@@ -9,7 +10,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class CaltriceItems
 {
 	//Armour Materials
-	static ArmorMaterial CHAIN = EnumHelper.addArmorMaterial("DECCHAIN", 20, new int[]{2, 6,5, 2}, 8);
+	static ArmorMaterial CHAIN = EnumHelper.addArmorMaterial("DECCHAIN", 20, new int[]{2, 6, 5, 2}, 8);
 	
 	//Tool Materials
 	
@@ -18,7 +19,6 @@ public class CaltriceItems
 	static Item.ToolMaterial FAUX = EnumHelper.addToolMaterial("FAUX", 4, 2550, 4.5F, 4.0F, 4);
 	static Item.ToolMaterial VOSTALLOS = EnumHelper.addToolMaterial("VOSTALLOS", 5, 3000, 4.5F, 4.0F, 5);
 	static Item.ToolMaterial ANCIENT = EnumHelper.addToolMaterial("ANCIENT", 5, 5000, 6.0F, 5.5F, 5);
-	
 	//Armour
     public static Item decchainHelm = new ItemDecchainArmour(CHAIN, 0, "decchainHelm");
     public static Item decchainPlate = new ItemDecchainArmour(CHAIN, 1, "decchainPlate");
@@ -32,6 +32,9 @@ public class CaltriceItems
 	public static Item apliteHoe = new ItemCaltriceHoe(APLITE).setUnlocalizedName("apliteHoe");
 	//Ancient Tools
 	public static Item ancientArcLight = new ItemAncientSword(ANCIENT).setUnlocalizedName("ancientArcLight");
+	public static Item ancientNecroticPick = new ItemAncientPickaxe(ANCIENT).setUnlocalizedName("ancientNecroticPick");
+	public static Item ancientVestorialShovel = new ItemAncientShovel(ANCIENT).setUnlocalizedName("ancientVestorialShovel");
+	public static Item ancientLuridaeAxe = new ItemAncientAxe(ANCIENT).setUnlocalizedName("ancientLuridaeAxe");
 	
 	public static Item fauxSword = new ItemCaltriceSword(APLITE).setUnlocalizedName("fauxSword");
 	public static Item fauxPickaxe = new ItemCaltricePickaxe(APLITE).setUnlocalizedName("fauxPickaxe");
@@ -78,9 +81,11 @@ public class CaltriceItems
 	RegisterHelper.registerItem(vostallosShovel);
 	RegisterHelper.registerItem(vostallosAxe);
 	RegisterHelper.registerItem(vostallosHoe);
-	
 		//Ancient Tools
 	RegisterHelper.registerItem(ancientArcLight);
+	RegisterHelper.registerItem(ancientNecroticPick);
+	RegisterHelper.registerItem(ancientVestorialShovel);
+	RegisterHelper.registerItem(ancientLuridaeAxe);
 		//Items
 	RegisterHelper.registerItem(apliteShard);
 	RegisterHelper.registerItem(apliteGem);

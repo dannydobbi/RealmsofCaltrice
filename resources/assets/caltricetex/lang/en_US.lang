@@ -27,6 +27,7 @@ item.vostallosHoe.name=Vostallos Hoe
 
 //ANCIENT TOOLS
 item.ancientArcLight.name=Ancient Arc Light Sword
+item.ancientNecroticPick.name=Ancient Necrotic Pickaxe
 
 //BLOCKS
 tile.Thatchedreed.name=Thatched Reed

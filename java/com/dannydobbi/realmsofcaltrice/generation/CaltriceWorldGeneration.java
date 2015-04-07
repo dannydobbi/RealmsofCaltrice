@@ -33,9 +33,9 @@ public class CaltriceWorldGeneration implements IWorldGenerator
 		addOreSpawn(CaltriceBlocks.Vostallosore, world, random, i, j, 16, 16,2 + random.nextInt(4), 4, 0,12);
 		/*
 		int Xcoord1 = i + random.nextInt(16);
-		int Ycoord1 = random.nextInt(80);
 		int Zcoord1 = j + random.nextInt(16);
-
+		int Ycoord1 = (int) world.getHorizon();
+		
 		(new ArcLightStructure()).generate(world, random, Xcoord1, Ycoord1, Zcoord1);
 		*/
 	}
