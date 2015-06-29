@@ -10,7 +10,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 
 import com.dannydobbi.realmsofcaltrice.blocks.CaltriceBlocks;
 import com.dannydobbi.realmsofcaltrice.crafting.Recipes;
-import com.dannydobbi.realmsofcaltrice.generation.CaltriceWorldGeneration;
+//import com.dannydobbi.realmsofcaltrice.generation.CaltriceWorldGeneration;
 import com.dannydobbi.realmsofcaltrice.help.*;
 import com.dannydobbi.realmsofcaltrice.items.CaltriceItems;
 
@@ -18,23 +18,23 @@ import com.dannydobbi.realmsofcaltrice.items.CaltriceItems;
 
 public class CaltriceCore
 {
-	  CaltriceWorldGeneration eventWorldGen = new CaltriceWorldGeneration();
-	  
+	   //static CaltriceWorldGeneration eventWorldGen = new CaltriceWorldGeneration();
+	
 		@Mod.EventHandler
 	    public void preInit (FMLPreInitializationEvent event)
 	    {
 		  CaltriceItems.init();
 		  CaltriceBlocks.init();
-		  GameRegistry.registerWorldGenerator(this.eventWorldGen, 0);
 	    }
 		@Mod.EventHandler
 	    public void load(FMLInitializationEvent event) 
 	    {
-	 
+
 	    }
 		@Mod.EventHandler
 	    public static void init (FMLInitializationEvent event ) 
 	    {
 			  Recipes.init();
+			  //GameRegistry.registerWorldGenerator(eventWorldGen, 0);
 	    }
 }

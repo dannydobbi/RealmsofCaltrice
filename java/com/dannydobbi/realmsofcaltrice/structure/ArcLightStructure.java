@@ -1,14 +1,19 @@
+/*
 package com.dannydobbi.realmsofcaltrice.structure;
 
 import java.util.Random;
 
+import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
+import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenerator;
  
-public class ArcLightStructure extends WorldGenerator {
+public class ArcLightStructure implements IWorldGenerator 
+{
  
-        public boolean generate(World world, Random rand, int i, int j, int k) {
+        public void generate(World world, Random rand, int i, int j, int k)
+        {
                 world.setBlock(i + 0, j + 0, k + 0, Blocks.planks);
                 world.setBlock(i + 0, j + 0, k + 1, Blocks.planks);
                 world.setBlock(i + 0, j + 0, k + 2, Blocks.planks);
@@ -662,7 +667,14 @@ public class ArcLightStructure extends WorldGenerator {
                 world.setBlock(i + 18, j + 3, k + 15, Blocks.stonebrick);
                 world.setBlock(i + 18, j + 3, k + 16, Blocks.stonebrick);
                 world.setBlock(i + 18, j + 3, k + 17, Blocks.stonebrick);
- 
-                return true;
         }
-}
+
+		@Override
+		public void generate(Random random, int chunkX, int chunkZ,
+				World world, IChunkProvider chunkGenerator,
+				IChunkProvider chunkProvider) {
+			// TODO Auto-generated method stub
+			
+		}
+		}
+*/

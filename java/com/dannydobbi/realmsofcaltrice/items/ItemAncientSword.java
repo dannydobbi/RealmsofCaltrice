@@ -2,10 +2,13 @@ package com.dannydobbi.realmsofcaltrice.items;
 
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.enchantment.Enchantment;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.Item.ToolMaterial;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
 import net.minecraft.world.World;
 
 import com.dannydobbi.realmsofcaltrice.help.ModInfo;
@@ -46,4 +49,12 @@ public class ItemAncientSword extends ItemSword
 	    boolean hasEnchant = true;
 		return hasEnchant;
 	    }
+	public boolean hitEntity(ItemStack stack, EntityLivingBase enemy, EntityLivingBase player)
+	{
+		stack.damageItem(1, player);
+		
+		enemy.addPotionEffect(new PotionEffect(Potion.poison.id, 20*30, 1));
+		
+		return true;
+	}
 }

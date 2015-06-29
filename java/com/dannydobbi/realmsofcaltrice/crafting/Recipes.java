@@ -1,5 +1,6 @@
 package com.dannydobbi.realmsofcaltrice.crafting;
 
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -15,6 +16,7 @@ public class Recipes {
 	{
 		//Blocks
 		GameRegistry.addShapedRecipe(new ItemStack(CaltriceBlocks.thatchedReed, 2), new Object[] {"RR", "RR", 'R', Items.reeds});
+		GameRegistry.addSmelting(CaltriceBlocks.barliecobblestone, new ItemStack (CaltriceBlocks.barlieRock), 1);
 		//Items
 		
 		//Tools
@@ -35,6 +37,8 @@ public class Recipes {
 		GameRegistry.addShapedRecipe(new ItemStack(CaltriceItems.decchainPlate, 1), new Object[]{"C C", "CCC", "CCC", 'C', CaltriceItems.chainLink});
 		GameRegistry.addShapedRecipe(new ItemStack(CaltriceItems.decchainPants, 1), new Object[]{"CCC", "C C", "C C", 'C', CaltriceItems.chainLink});
 		GameRegistry.addShapedRecipe(new ItemStack(CaltriceItems.decchainBoots, 1), new Object[]{"   ", "C C", "C C", 'C', CaltriceItems.chainLink});
+			//Misc Items
+		
 	}
 
 	public static void init()

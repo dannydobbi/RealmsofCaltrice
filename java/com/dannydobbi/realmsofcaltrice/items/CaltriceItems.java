@@ -5,6 +5,7 @@ import com.dannydobbi.realmsofcaltrice.help.RegisterHelper;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
+import net.minecraft.item.ItemFood;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class CaltriceItems
@@ -18,7 +19,7 @@ public class CaltriceItems
 	static Item.ToolMaterial APLITE = EnumHelper.addToolMaterial("APLITE", 2, 1500, 3.5F, 2.0F, 3);
 	static Item.ToolMaterial FAUX = EnumHelper.addToolMaterial("FAUX", 4, 2550, 4.5F, 4.0F, 4);
 	static Item.ToolMaterial VOSTALLOS = EnumHelper.addToolMaterial("VOSTALLOS", 5, 3000, 4.5F, 4.0F, 5);
-	static Item.ToolMaterial ANCIENT = EnumHelper.addToolMaterial("ANCIENT", 5, 5000, 6.0F, 5.5F, 5);
+	static Item.ToolMaterial ANCIENT = EnumHelper.addToolMaterial("ANCIENT", 5, 5000, 7.0F, 5.5F, 5);
 	//Armour
     public static Item decchainHelm = new ItemDecchainArmour(CHAIN, 0, "decchainHelm");
     public static Item decchainPlate = new ItemDecchainArmour(CHAIN, 1, "decchainPlate");
@@ -55,6 +56,7 @@ public class CaltriceItems
 	public static Item apliteGem = new CaltriceItem().setUnlocalizedName("apliteGem");
 	public static Item fauxGem = new CaltriceItem().setUnlocalizedName("fauxGem");
 	public static Item chainLink = new CaltriceItem().setUnlocalizedName("chainLink");
+	//Misc Items
 	
 	public static void init()
 	{
@@ -94,5 +96,6 @@ public class CaltriceItems
 	RegisterHelper.registerItem(vostallosShard);
 	RegisterHelper.registerItem(vostallosGem);
 	RegisterHelper.registerItem(chainLink);
+		//Misc Items
 	}
 }
